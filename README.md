@@ -19,7 +19,7 @@ make install-full
 Logrotate
 
 ```
-/etc/logrotate.d/suricata
+nano /etc/logrotate.d/suricata
 
 /var/log/suricata/eve.json {
         daily
@@ -35,7 +35,7 @@ Logrotate
 Service
 
 ```
-/etc/init/suricata.conf
+nano /etc/init/suricata.conf
 
 # suricata
 description "Intruder Detection System Daemon"
